@@ -6,7 +6,6 @@
 `npm run dev`  
 `http://localhost:5173/`
 
-./ft_mini_ls
 
 
 
