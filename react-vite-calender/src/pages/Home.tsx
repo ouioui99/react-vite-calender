@@ -5,9 +5,9 @@ import BottomNavigation from "../components/BottomNavigations/BottomNavigation";
 export default function Home() {
   return (
     <>
-      <Link to="/login">Login</Link>
-      <div>Home</div>
-      <BottomNavigation />
+      <div className="flex-1 flex items-center justify-center">
+        <h1 className="text-2xl">Home Page</h1>
+      </div>
     </>
   );
 }

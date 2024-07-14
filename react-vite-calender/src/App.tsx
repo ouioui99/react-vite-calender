@@ -3,11 +3,14 @@ import { useState } from "react";
 import "./App.css";
 import Router from "./router/Router";
 import BottomNavigation from "./components/BottomNavigations/BottomNavigation";
+import { UserAuthProvider } from "./Contexts/UserContext";
 
 function App() {
   return (
-    <div className="App">
-      <Router />
+    <div className="container">
+      <UserAuthProvider>
+        <Router />
+      </UserAuthProvider>
     </div>
   );
 }
