@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function SettingScreen() {
+export default function Setting() {
   return <div>SettingScreen</div>;
 }
